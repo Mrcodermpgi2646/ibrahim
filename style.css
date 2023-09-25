@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/cyber-monday-retail-sales.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.container{
+    padding: 0 30px;
+}
+.navbar{
+    width: auto;
+    height: 120px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 500;
+
+}
+.nav-link{
+    padding: 0 30px;
+}
+.nav-link:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 10px;
+}
+.hero-section{   
+    font-family: poppins;
+    width: auto;
+    
+    
+}
+.hero-section h1{
+    font-size: 60px;
+    position: relative;
+}
+
+span{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.feature-text{
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.form-card{
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 210px;
+    right: 150px;
+    padding: 20px;
+
+
+}
+.form-card h2{
+    font-size: 50px;
+}
+.form-input-1{
+    background: transparent;
+}
+.form-card p{
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* a {
+    text-decoration: none;
+}
+body {
+    background-repeat: no-repeat;
+}
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+#forgot-pass {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+#card-content {
+    padding: 12px 44px;
+}
+#card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+#signup {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+}
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 1px;
+    width: 100%;
+}
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+.underline-title {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}
+   */
